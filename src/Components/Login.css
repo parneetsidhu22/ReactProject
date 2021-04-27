@@ -1,0 +1,10 @@
+.card-login-register{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.login-btn{
+    width:100%;
+    height:40px;
+}

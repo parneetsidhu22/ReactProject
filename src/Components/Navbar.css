@@ -40,6 +40,14 @@
     background-color:#1b76c0;
 }
 
-.navigation-section > ul > li > a:hover{
+.navigation-section > ul > li > a:hover{    
     background-color:#1b76c0;
+}
+
+.navigation-section > ul > li > .signout-btn{
+    background-color:#ff3c00;
+}
+
+.navigation-section > ul > li > .signout-btn:hover{
+    background-color:#f13f09;
 }

@@ -15,7 +15,7 @@ export default function Navbar() {
                     <li><a href="" className="active">Home</a></li>
                     <li><a href="">About us</a></li>
                     <li><a href="">Contact us</a></li>
-                    
+                    <li><a href="" className="signout-btn">Sign Out</a></li>
                 </ul>
                 {/* 
                 <Button
