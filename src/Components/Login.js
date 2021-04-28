@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css'
+import Register from './Register'
 
 export default function Login() {
     return (
@@ -21,13 +22,16 @@ export default function Login() {
                         <button type="button" className="btn btn-success login-btn">Success</button>
                         <br />
                         <hr />
-                        <button type="button" className="btn btn-primary login-btn">Register</button>
+                        <button type="button" className="btn btn-primary login-btn" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
                     </div>
                     {/***************************************************/}
                 </div>
                 
                 <br/>
             </div>
+
+            {/*<!-- Modal -->*/}
+            <Register />
         </div>
     )
 }

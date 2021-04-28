@@ -7,7 +7,11 @@ function App() {
     <div className="App">
       
       { /* <Home /> */ }
-      <Login />
+      <div className="display-login-center">
+        <center><p class="h1">Login</p></center><br/>
+        <Login />
+      </div>
+      
     </div>
   );
 }
