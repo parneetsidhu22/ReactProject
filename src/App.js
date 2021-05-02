@@ -1,10 +1,18 @@
-import logo from './logo.svg';
+  
 import './App.css';
+//import Home from "./Components/Home";
+import Login from './Components/Login'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      
+      { /* <Home /> */ }
+      <div className="display-login-center">
+        <center><p class="h1">Login</p></center><br/>
+        <Login />
+      </div>
+      
     </div>
   );
 }

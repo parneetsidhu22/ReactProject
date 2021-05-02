@@ -1,0 +1,53 @@
+.navbar{
+    background-color:#2c8ad8;
+    color:#fff;
+    display:flex;
+}
+
+.logo-section{
+    flex:1;
+    padding:10px;
+}
+
+.logo-section > a{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff;
+}
+.navigation-section{
+    display:flex;
+}
+.navigation-section ul{
+    list-style-type: none;
+    display:flex;
+    bottom:0;
+}
+
+.navigation-section ul li{
+    margin-top:11px;
+}
+
+
+.navigation-section > ul > li > a{
+    text-decoration:none;
+    font-size:19px;
+    padding:10px;
+    color:#fff;
+}
+
+.navigation-section > ul > li > .active{
+    background-color:#1b76c0;
+}
+
+.navigation-section > ul > li > a:hover{    
+    background-color:#1b76c0;
+}
+
+.navigation-section > ul > li > .signout-btn{
+    background-color:#ff3c00;
+}
+
+.navigation-section > ul > li > .signout-btn:hover{
+    background-color:#f13f09;
+}
