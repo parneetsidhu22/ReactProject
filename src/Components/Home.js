@@ -8,7 +8,7 @@ export default function Home() {
     axios.get('/app')
         .then((res) => {
             console.log(res)
-        })
+    })
 
     return (
         <div>
