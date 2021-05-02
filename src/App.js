@@ -1,6 +1,6 @@
 import './App.css';
-//import Home from "./Components/Home";
-import Login from './Components/Login'
+import Home from "./Components/Home";
+//import Login from './Components/Login'
 
 function App() {
   return (
@@ -8,8 +8,9 @@ function App() {
       
       { /* <Home /> */ }
       <div className="display-login-center">
-        <center><p class="h1">Login</p></center><br/>
-        <Login />
+        {/* <center><p class="h1">Login</p></center><br/>
+        <Login />*/}
+        <Home />
       </div>
       
     </div>
