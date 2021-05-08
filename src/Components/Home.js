@@ -9,10 +9,15 @@ export default function Home() {
    useEffect(()=>{
         axios.get('/app')
         .then((res) => {
+<<<<<<< HEAD
             setData(res.data)
         })
     },[])
     
+=======
+            console.log(res)
+    })
+>>>>>>> c7ccea5f7a3471127fa4bfe48d6be91785ac85b3
 
     return (
         <div>
